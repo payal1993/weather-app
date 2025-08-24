@@ -73,8 +73,8 @@ Backend runs at: `http://localhost:5000`
 
 ---
 
-## 📸 Demo (suggestion)
-Add screenshots or a short gif of your app here once deployed.
+## 📸 Demo
+![alt text](<Screenshot 2025-08-24 at 7.27.53 PM.png>)
 
 ---
 
