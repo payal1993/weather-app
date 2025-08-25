@@ -7,7 +7,14 @@ import weatherRoutes from "./routes/weather.js";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+
+// ✅ Configure CORS
+app.use(cors({
+  origin: "https://chic-gumdrop-81bc3d.netlify.app",
+  methods: ["GET", "POST"],
+  credentials: true
+}));
+
 app.use(express.json());
 
 mongoose.connect(process.env.MONGO_URI, {
